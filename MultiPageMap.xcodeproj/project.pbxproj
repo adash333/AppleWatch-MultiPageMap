@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009B57212710678D00585035 /* MultiPageMap WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 009B57202710678D00585035 /* MultiPageMap WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		009B57262710678E00585035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009B57252710678E00585035 /* Assets.xcassets */; };
+		009B572C2710678E00585035 /* MultiPageMap WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 009B572B2710678E00585035 /* MultiPageMap WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		009B57312710678E00585035 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B57302710678E00585035 /* ContentView.swift */; };
+		009B57332710678E00585035 /* MultiPageMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B57322710678E00585035 /* MultiPageMapApp.swift */; };
+		009B57352710678E00585035 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B57342710678E00585035 /* ComplicationController.swift */; };
+		009B57372710678F00585035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009B57362710678F00585035 /* Assets.xcassets */; };
+		009B573A2710678F00585035 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009B57392710678F00585035 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		009B57222710678D00585035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009B57162710678D00585035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009B571F2710678D00585035;
+			remoteInfo = "MultiPageMap WatchKit App";
+		};
+		009B572D2710678E00585035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009B57162710678D00585035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009B572A2710678E00585035;
+			remoteInfo = "MultiPageMap WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		009B57412710678F00585035 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				009B572C2710678E00585035 /* MultiPageMap WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009B57452710678F00585035 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				009B57212710678D00585035 /* MultiPageMap WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		009B571C2710678D00585035 /* MultiPageMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiPageMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		009B57202710678D00585035 /* MultiPageMap WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultiPageMap WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		009B57252710678E00585035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		009B572B2710678E00585035 /* MultiPageMap WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MultiPageMap WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		009B57302710678E00585035 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		009B57322710678E00585035 /* MultiPageMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPageMapApp.swift; sourceTree = "<group>"; };
+		009B57342710678E00585035 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		009B57362710678F00585035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		009B57392710678F00585035 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		009B573B2710678F00585035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		009B57282710678E00585035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009B57152710678D00585035 = {
+			isa = PBXGroup;
+			children = (
+				009B57242710678D00585035 /* MultiPageMap WatchKit App */,
+				009B572F2710678E00585035 /* MultiPageMap WatchKit Extension */,
+				009B571D2710678D00585035 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		009B571D2710678D00585035 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				009B571C2710678D00585035 /* MultiPageMap.app */,
+				009B57202710678D00585035 /* MultiPageMap WatchKit App.app */,
+				009B572B2710678E00585035 /* MultiPageMap WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		009B57242710678D00585035 /* MultiPageMap WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				009B57252710678E00585035 /* Assets.xcassets */,
+			);
+			path = "MultiPageMap WatchKit App";
+			sourceTree = "<group>";
+		};
+		009B572F2710678E00585035 /* MultiPageMap WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				009B57302710678E00585035 /* ContentView.swift */,
+				009B57322710678E00585035 /* MultiPageMapApp.swift */,
+				009B57342710678E00585035 /* ComplicationController.swift */,
+				009B57362710678F00585035 /* Assets.xcassets */,
+				009B573B2710678F00585035 /* Info.plist */,
+				009B57382710678F00585035 /* Preview Content */,
+			);
+			path = "MultiPageMap WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		009B57382710678F00585035 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				009B57392710678F00585035 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		009B571B2710678D00585035 /* MultiPageMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009B57462710678F00585035 /* Build configuration list for PBXNativeTarget "MultiPageMap" */;
+			buildPhases = (
+				009B571A2710678D00585035 /* Resources */,
+				009B57452710678F00585035 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				009B57232710678D00585035 /* PBXTargetDependency */,
+			);
+			name = MultiPageMap;
+			productName = MultiPageMap;
+			productReference = 009B571C2710678D00585035 /* MultiPageMap.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		009B571F2710678D00585035 /* MultiPageMap WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009B57422710678F00585035 /* Build configuration list for PBXNativeTarget "MultiPageMap WatchKit App" */;
+			buildPhases = (
+				009B571E2710678D00585035 /* Resources */,
+				009B57412710678F00585035 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				009B572E2710678E00585035 /* PBXTargetDependency */,
+			);
+			name = "MultiPageMap WatchKit App";
+			productName = "MultiPageMap WatchKit App";
+			productReference = 009B57202710678D00585035 /* MultiPageMap WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		009B572A2710678E00585035 /* MultiPageMap WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009B573E2710678F00585035 /* Build configuration list for PBXNativeTarget "MultiPageMap WatchKit Extension" */;
+			buildPhases = (
+				009B57272710678E00585035 /* Sources */,
+				009B57282710678E00585035 /* Frameworks */,
+				009B57292710678E00585035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultiPageMap WatchKit Extension";
+			productName = "MultiPageMap WatchKit Extension";
+			productReference = 009B572B2710678E00585035 /* MultiPageMap WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		009B57162710678D00585035 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					009B571B2710678D00585035 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					009B571F2710678D00585035 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					009B572A2710678E00585035 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 009B57192710678D00585035 /* Build configuration list for PBXProject "MultiPageMap" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 009B57152710678D00585035;
+			productRefGroup = 009B571D2710678D00585035 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				009B571B2710678D00585035 /* MultiPageMap */,
+				009B571F2710678D00585035 /* MultiPageMap WatchKit App */,
+				009B572A2710678E00585035 /* MultiPageMap WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		009B571A2710678D00585035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009B571E2710678D00585035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009B57262710678E00585035 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009B57292710678E00585035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009B573A2710678F00585035 /* Preview Assets.xcassets in Resources */,
+				009B57372710678F00585035 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		009B57272710678E00585035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009B57312710678E00585035 /* ContentView.swift in Sources */,
+				009B57332710678E00585035 /* MultiPageMapApp.swift in Sources */,
+				009B57352710678E00585035 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		009B57232710678D00585035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 009B571F2710678D00585035 /* MultiPageMap WatchKit App */;
+			targetProxy = 009B57222710678D00585035 /* PBXContainerItemProxy */;
+		};
+		009B572E2710678E00585035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 009B572A2710678E00585035 /* MultiPageMap WatchKit Extension */;
+			targetProxy = 009B572D2710678E00585035 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		009B573C2710678F00585035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		009B573D2710678F00585035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		009B573F2710678F00585035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultiPageMap WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = TQZ56LF75L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MultiPageMap WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MultiPageMap WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adash333.MultiPageMap.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		009B57402710678F00585035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultiPageMap WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = TQZ56LF75L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MultiPageMap WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MultiPageMap WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adash333.MultiPageMap.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		009B57432710678F00585035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TQZ56LF75L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = MultiPageMap_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "MultiPageMap WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adash333.MultiPageMap.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		009B57442710678F00585035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TQZ56LF75L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = MultiPageMap_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "MultiPageMap WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adash333.MultiPageMap.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		009B57472710678F00585035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TQZ56LF75L;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adash333.MultiPageMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		009B57482710678F00585035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TQZ56LF75L;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adash333.MultiPageMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009B57192710678D00585035 /* Build configuration list for PBXProject "MultiPageMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009B573C2710678F00585035 /* Debug */,
+				009B573D2710678F00585035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009B573E2710678F00585035 /* Build configuration list for PBXNativeTarget "MultiPageMap WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009B573F2710678F00585035 /* Debug */,
+				009B57402710678F00585035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009B57422710678F00585035 /* Build configuration list for PBXNativeTarget "MultiPageMap WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009B57432710678F00585035 /* Debug */,
+				009B57442710678F00585035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009B57462710678F00585035 /* Build configuration list for PBXNativeTarget "MultiPageMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009B57472710678F00585035 /* Debug */,
+				009B57482710678F00585035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 009B57162710678D00585035 /* Project object */;
+}
